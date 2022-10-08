@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 .home {
     height: 100vh;
@@ -60,6 +61,12 @@ nav ul li a:hover {
     display: inline-block;
     margin: 20px 0;
     border-radius: 5px;
+}
+.home-text a:hover{
+    background-color:#F5F5F5;
+    color: red;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .home-image {
     width: 34%;
@@ -175,4 +182,16 @@ footer {
     background-color: rgb(255, 255, 255);
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social-media {
+    margin-top: 10px;
+    margin-bottom: 0,5px;
+    font-size: 25px;
+}
+.social-media a {
+    text-decoration: none;
+    color: black;
+}
+.social-media a:hover {
+    color: red;
 }
